@@ -105,7 +105,7 @@ body {
     margin-top: 30px;
     height: 650px;
 
-    background-image: url('/img/02-page/02-img.png');
+    background-image: url('../img/02-page/02-img.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

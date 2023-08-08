@@ -10,7 +10,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: #070707;
-    height: 3930px;
+    height: 3000px;
 }
 .container {
     margin: 0px 50px
@@ -18,6 +18,9 @@ body {
 /* ---------------------------------------- */
 /* HEADER */
 /* ---------------------------------------- */
+.header-mob {
+    display: none;
+}
 .header {
     position: relative;
     padding-top: 33px;
@@ -119,7 +122,6 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 130%;
-    
 }
 .page02-img {
     z-index: 1;
@@ -131,11 +133,11 @@ body {
     margin: 0px auto;
     margin-top: 0px;
     height: 1px;
-    width: 1150px;
+    width: 1100px;
     background-color: #FFF;
 }
 /* ---------------------------------------- */
-/* 02-page */
+/* 03-page */
 /* ---------------------------------------- */
 .page03 {
     margin-top: 30px;
@@ -156,7 +158,12 @@ body {
 }
 .page03-cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+.page-cards-row {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
 .page03-card {
     border-radius: 20px 20px 0px 0px;
@@ -179,7 +186,7 @@ body {
     line-height: normal;
 }
 #page03-bt {
-    margin-top: 100px;
+    margin-top: 40px;
 }
 /* ---------------------------------------- */
 /* 04-page */
@@ -246,6 +253,9 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.page04-card {
+    width: 300px;
+}
 .page04-card-img {
     display: flex;
     flex-direction: column;
@@ -259,6 +269,7 @@ body {
     top: -90px;
 }
 .page04-card-text {
+    text-align: center;
     position: relative;
     color: #FFF;
     font-family: Montserrat;
@@ -273,7 +284,6 @@ body {
 /* ---------------------------------------- */
 .page05 {
     position: relative;
-    overflow: hidden;
 }
 .page05-img {
     display: flex;
@@ -329,12 +339,13 @@ body {
 /* 06-page */
 /* ---------------------------------------- */
 .page06 {
+    overflow: hidden;
     position: relative;
     top: -280px;
 }
 #page06 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .page06-leftside {
     margin-top: 50px;
@@ -349,7 +360,15 @@ body {
     gap: 20px;
 }
 .page06-ls-contact {
-    width: 230px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.page06-ls-contact {
+    width: 250px;
     background-color: #D9D9D9;
     padding: 10px;
     border-radius: 26.5px;
@@ -386,4 +405,7 @@ body {
     position: absolute;
     top: 0px;
     right: 0px; 
+}
+.lines07 {
+    overflow: hidden;
 }

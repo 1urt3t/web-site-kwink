@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kwink</title>
     <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Css/media.css" />
+    <script src="/Js/main.js" defer></script>
   </head>
   <body>
     <div class="header">
@@ -34,6 +36,42 @@
         </div>
         <div class="header-img">
           <img src="img/01-header/03-img.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="header-mob">
+      <div class="container" id="header-mob">
+        <div class="burger-menu">
+          <div class="burger-menu-btn">
+            <button onclick="burgerMenu()">
+              <div class="menu-btn-line"></div>
+              <div class="menu-btn-line"></div>
+              <div class="menu-btn-line"></div>
+            </button>
+          </div>
+          <div class="menu-items">
+            <div class="menu-item"><a href="">О нас</a></div>
+            <div class="menu-item"><a href="">Проекты</a></div>
+            <div class="menu-item"><a href="">Партнёры</a></div>
+            <div class="menu-item"><a href="">Контакты</a></div>
+          </div>
+        </div>
+        <div class="header-logo">
+          <img src="./img/01-header/01-logo.png" alt="" />
+        </div>
+        <div class="header-contact">
+          <div class="header-contact-cont">
+            <div class="contact-img">
+              <img src="./img/01-header/02-phone.png" alt="" />
+            </div>
+            <div class="contact-text">+7(900)000-00-00</div>
+          </div>
+          <div class="header-contact-cont">
+            <div class="contact-img">
+              <img src="./img/01-header/03-email.png" alt="" />
+            </div>
+            <div class="contact-text">info@kvink.ru</div>
+          </div>
         </div>
       </div>
     </div>
@@ -74,47 +112,51 @@
       <div class="container" id="page03">
         <div class="page03-text">Проекты</div>
         <div class="page03-cards">
-          <div class="page03-card">
-            <div class="card-img">
-              <img src="img/03-page/01-img.png" alt="" />
+          <div class="page-cards-row">
+            <div class="page03-card">
+              <div class="card-img">
+                <img src="img/03-page/01-img.png" alt="" />
+              </div>
+              <div class="card-text">
+                <div class="card-header">Кино</div>
+                <div class="card-btn">
+                  <img src="img/03-page/05-btn.png" alt="" />
+                </div>
+              </div>
             </div>
-            <div class="card-text">
-              <div class="card-header">Кино</div>
-              <div class="card-btn">
-                <img src="img/03-page/05-btn.png" alt="" />
+            <div class="page03-card">
+              <div class="card-img">
+                <img src="img/03-page/02-img.png" alt="" />
+              </div>
+              <div class="card-text">
+                <div class="card-header">Фильмы</div>
+                <div class="card-btn">
+                  <img src="img/03-page/05-btn.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
-          <div class="page03-card">
-            <div class="card-img">
-              <img src="img/03-page/02-img.png" alt="" />
-            </div>
-            <div class="card-text">
-              <div class="card-header">Фильмы</div>
-              <div class="card-btn">
-                <img src="img/03-page/05-btn.png" alt="" />
+          <div class="page-cards-row">
+            <div class="page03-card">
+              <div class="card-img">
+                <img src="img/03-page/03-img.png" alt="" />
+              </div>
+              <div class="card-text">
+                <div class="card-header">Сериалы</div>
+                <div class="card-btn">
+                  <img src="img/03-page/05-btn.png" alt="" />
+                </div>
               </div>
             </div>
-          </div>
-          <div class="page03-card">
-            <div class="card-img">
-              <img src="img/03-page/03-img.png" alt="" />
-            </div>
-            <div class="card-text">
-              <div class="card-header">Сериалы</div>
-              <div class="card-btn">
-                <img src="img/03-page/05-btn.png" alt="" />
+            <div class="page03-card">
+              <div class="card-img">
+                <img src="img/03-page/04-img.png" alt="" />
               </div>
-            </div>
-          </div>
-          <div class="page03-card">
-            <div class="card-img">
-              <img src="img/03-page/04-img.png" alt="" />
-            </div>
-            <div class="card-text">
-              <div class="card-header">Трейлеры</div>
-              <div class="card-btn">
-                <img src="img/03-page/05-btn.png" alt="" />
+              <div class="card-text">
+                <div class="card-header">Трейлеры</div>
+                <div class="card-btn">
+                  <img src="img/03-page/05-btn.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -129,11 +171,11 @@
           описание о партнере, краткая инфа и тд
           <div class="page03-mtc">
             <div class="page03-mtc-logo">
-              <img src="img/04-page/02-circle+.png" alt="" /><img
-                class="page03-mtc-l"
-                src="img/04-page/07-mtc.png"
+              <img
+                class="page03-mtc-logo-m"
+                src="img/04-page/02-circle+.png"
                 alt=""
-              />
+              /><img class="page03-mtc-l" src="img/04-page/07-mtc.png" alt="" />
             </div>
           </div>
         </div>
@@ -142,7 +184,11 @@
         <div class="page04-cards">
           <div class="page04-card">
             <div class="page04-card-img">
-              <img src="img/04-page/03-circle.png" alt="" />
+              <img
+                class="page04-card-img-main"
+                src="img/04-page/03-circle.png"
+                alt=""
+              />
               <img
                 class="page04-card-img-pr"
                 src="img/04-page/04-paper.png"
@@ -153,25 +199,33 @@
           </div>
           <div class="page04-card">
             <div class="page04-card-img">
-              <img src="img/04-page/03-circle.png" alt="" />
+              <img
+                class="page04-card-img-main"
+                src="img/04-page/03-circle.png"
+                alt=""
+              />
               <img
                 class="page04-card-img-pr pr"
                 src="img/04-page/05-camera.png"
                 alt=""
               />
             </div>
-            <div class="page04-card-text">Разработка сценария</div>
+            <div class="page04-card-text">Съёмка видео клипов</div>
           </div>
           <div class="page04-card">
             <div class="page04-card-img">
-              <img src="img/04-page/03-circle.png" alt="" />
+              <img
+                class="page04-card-img-main"
+                src="img/04-page/03-circle.png"
+                alt=""
+              />
               <img
                 class="page04-card-img-pr"
                 src="img/04-page/06-img.png"
                 alt=""
               />
             </div>
-            <div class="page04-card-text">Разработка сценария</div>
+            <div class="page04-card-text">Короткий метр</div>
           </div>
         </div>
       </div>
@@ -180,7 +234,7 @@
       <div class="container" id="page05">
         <div class="page02-borderBt"></div>
         <div class="page05-img">
-          <img src="img/05-page/01-img.png" alt="" />
+          <img class="page05-main-img" src="img/05-page/01-img.png" alt="" />
           <div class="page02-borderBt"></div>
           <div class="page05-text-email">
             <img src="img/01-header/03-email.png" alt="" />
@@ -226,7 +280,7 @@
         </div>
       </div>
     </div>
-    <div class="07-lines">
+    <div class="lines07">
       <img id="first" src="img/07-lines/img.png" alt="" />
       <img id="second" src="img/07-lines/img.png" alt="" />
     </div>

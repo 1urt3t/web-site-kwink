@@ -65,10 +65,10 @@ max: 1440
         height: 500px;
     }
     #first {
-        height: 4120px;
+        height: 4170px;
     }
     #second {
-        height: 4120px;
+        height: 4170px;
     }
 }
 /* ---------------------------------
@@ -168,13 +168,13 @@ max: 1200
         padding: 6px;
     }
     .page06-map {
-        width: 650px;
+        width: 700px;
     }
     .map-yandex {
-        width: 650px;
+        width: 700px;
         height: 400px;
     }
-    .page06-map span {
+    .page06-map-header {
         font-size: 30px;
     }
     .page06-img {
@@ -184,10 +184,10 @@ max: 1200
         width: 350px;
     }
     #first {
-        height: 3720px;
+        height: 3790px;
     }
     #second {
-        height: 3720px;
+        height: 3790px;
     }
 }
 /* ---------------------------------
@@ -363,16 +363,13 @@ max: 992
         width: 100px;
     }
     .page06-map {
-        width: 500px;
+        width: 550px;
     }
     .map-yandex {
-        width: 500px;
+        width: 550px;
         height: 300px;
     }
-    .page06-map img{
-        width: 500px;
-    }
-    .page06-map span {
+    .page06-map-header {
         font-size: 28px;
     }
     .page06-img {
@@ -382,10 +379,10 @@ max: 992
         width: 300px;
     }
     #first {
-        height: 3000px;
+        height: 3055px;
     }
     #second {
-        height: 3000px;
+        height: 3055px;
     }
 }
 /* ---------------------------------
@@ -611,7 +608,7 @@ max: 768
     /* 06-page */
     /* ---------------------------------------- */
     .page06 {
-        top: -200px;
+        top: -170px;
     }
     .page06-ls-contact {
         font-size: 8px;
@@ -627,13 +624,13 @@ max: 768
         width: 100px;
     }
     .page06-map {
-        width: 350px;
+        width: 400px;
     }
     .map-yandex {
-        width: 350px;
+        width: 400px;
         height: 200px;
     }
-    .page06-map span {
+    .page06-map-header {
         font-size: 20px;
     }
     .page06-img {
@@ -643,11 +640,11 @@ max: 768
         width: 200px;
     }
     #first {
-        height: 3300px;
+        height: 3360px;
         width: 7px;
     }
     #second {
-        height: 3300px;
+        height: 3360px;
         width: 7px;
     }
 }
@@ -906,7 +903,7 @@ max: 576
         display: flex;
         width: 100%;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     }
     .page06-ls-contacts {
         display: flex;
@@ -926,13 +923,13 @@ max: 576
         width: 100px;
     }
     .page06-map {
-        width: 300px;
+        width: 250px;
     }
     .map-yandex {
-        width: 300px;
+        width: 250px;
         height: 150px;
     }
-    .page06-map span {
+    .page06-map-header {
         font-size: 18px;
     }
     .page06-img {
@@ -942,11 +939,11 @@ max: 576
         width: 150px;
     }
     #first {
-        height: 2790px;
+        height: 2850px;
         width: 7px;
     }
     #second {
-        height: 2790px;
+        height: 2850px;
         width: 7px;
     }
     body {

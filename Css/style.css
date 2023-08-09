@@ -345,19 +345,18 @@ body {
 }
 #page06 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .page06-leftside {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end;
     z-index: 2;
 }
 .page06-ls-contacts {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
 }
 .page06-ls-contact {
     color: #000;
@@ -378,6 +377,9 @@ body {
     gap: 8px;
 }
 .page06-map {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 1000px;
     z-index: 2;
 }
@@ -386,7 +388,8 @@ body {
     width: 1000px;
     height: 500px;
 }
-.page06-map span {
+.page06-map-header {
+    margin: 0px auto;
     display: block;
     color: #FFF;
     font-family: Montserrat;
@@ -405,13 +408,13 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 3700px;
+    height: 3740px;
 }
 #second {
     position: absolute;
     top: 0px;
     right: 0px; 
-    height: 3700px;
+    height: 3740px;
 }
 .lines07 {
     overflow: hidden;

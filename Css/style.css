@@ -348,6 +348,9 @@ body {
     justify-content: space-around;
 }
 .page06-leftside {
+    position: absolute;
+    left: 40px;
+    top: 510px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;

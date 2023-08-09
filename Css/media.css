@@ -58,10 +58,10 @@ max: 1440
         font-size: 15px;
     }
     .page06-map {
-        width: 800px;
+        width: 760px;
     }
     .map-yandex {
-        width: 800px;
+        width: 760px;
         height: 500px;
     }
     #first {
@@ -160,6 +160,10 @@ max: 1200
     /* ---------------------------------------- */
     /* 06-page */
     /* ---------------------------------------- */
+    .page06-leftside {
+        top: 350px;
+        left: 30px;
+    }
     .page06-ls-contact {
         font-size: 14px;
     }
@@ -168,11 +172,11 @@ max: 1200
         padding: 6px;
     }
     .page06-map {
-        width: 700px;
+        width: 600px;
     }
     .map-yandex {
-        width: 700px;
-        height: 400px;
+        width: 600px;
+        height: 350px;
     }
     .page06-map-header {
         font-size: 30px;
@@ -184,10 +188,10 @@ max: 1200
         width: 350px;
     }
     #first {
-        height: 3790px;
+        height: 3730px;
     }
     #second {
-        height: 3790px;
+        height: 3730px;
     }
 }
 /* ---------------------------------
@@ -349,6 +353,10 @@ max: 992
     .page06 {
         top: -240px;
     }
+    .page06-leftside {
+        top: 250px;
+        left: 30px;
+    }
     .page06-ls-contact {
         font-size: 10px;
     }
@@ -363,11 +371,11 @@ max: 992
         width: 100px;
     }
     .page06-map {
-        width: 550px;
+        width: 450px;
     }
     .map-yandex {
-        width: 550px;
-        height: 300px;
+        width: 450px;
+        height: 250px;
     }
     .page06-map-header {
         font-size: 28px;
@@ -379,10 +387,10 @@ max: 992
         width: 300px;
     }
     #first {
-        height: 3055px;
+        height: 3000px;
     }
     #second {
-        height: 3055px;
+        height: 3000px;
     }
 }
 /* ---------------------------------
@@ -610,6 +618,10 @@ max: 768
     .page06 {
         top: -170px;
     }
+    .page06-leftside {
+        top: 185px;
+        left: 20px;
+    }
     .page06-ls-contact {
         font-size: 8px;
     }
@@ -624,10 +636,10 @@ max: 768
         width: 100px;
     }
     .page06-map {
-        width: 400px;
+        width: 350px;
     }
     .map-yandex {
-        width: 400px;
+        width: 350px;
         height: 200px;
     }
     .page06-map-header {
@@ -734,6 +746,10 @@ max: 576
     .page02 {
         margin-top: 60px;
         position: relative;
+    }
+    .page06-leftside {
+        top: 185px;
+        left: 0px;
     }
     .page02-text {
         margin-left: 0px;

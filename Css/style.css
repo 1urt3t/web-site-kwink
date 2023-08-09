@@ -381,6 +381,11 @@ body {
     width: 1000px;
     z-index: 2;
 }
+.map-yandex {
+    background-color: gray;
+    width: 1000px;
+    height: 500px;
+}
 .page06-map span {
     display: block;
     color: #FFF;
@@ -394,17 +399,19 @@ body {
     position: absolute;
     bottom: -70px;
     left: 0px;
-    z-index: 1;
+    z-index: 0;
 }
 #first {
     position: absolute;
     top: 0px;
     left: 0px;
+    height: 3700px;
 }
 #second {
     position: absolute;
     top: 0px;
     right: 0px; 
+    height: 3700px;
 }
 .lines07 {
     overflow: hidden;

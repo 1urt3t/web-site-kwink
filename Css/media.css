@@ -60,14 +60,15 @@ max: 1440
     .page06-map {
         width: 800px;
     }
-    .page06-map img{
+    .map-yandex {
         width: 800px;
+        height: 500px;
     }
     #first {
-        height: 4180px;
+        height: 4120px;
     }
     #second {
-        height: 4180px;
+        height: 4120px;
     }
 }
 /* ---------------------------------
@@ -169,8 +170,9 @@ max: 1200
     .page06-map {
         width: 650px;
     }
-    .page06-map img{
+    .map-yandex {
         width: 650px;
+        height: 400px;
     }
     .page06-map span {
         font-size: 30px;
@@ -182,10 +184,10 @@ max: 1200
         width: 350px;
     }
     #first {
-        height: 3790px;
+        height: 3720px;
     }
     #second {
-        height: 3790px;
+        height: 3720px;
     }
 }
 /* ---------------------------------
@@ -363,6 +365,10 @@ max: 992
     .page06-map {
         width: 500px;
     }
+    .map-yandex {
+        width: 500px;
+        height: 300px;
+    }
     .page06-map img{
         width: 500px;
     }
@@ -376,10 +382,10 @@ max: 992
         width: 300px;
     }
     #first {
-        height: 3020px;
+        height: 3000px;
     }
     #second {
-        height: 3020px;
+        height: 3000px;
     }
 }
 /* ---------------------------------
@@ -623,8 +629,9 @@ max: 768
     .page06-map {
         width: 350px;
     }
-    .page06-map img{
+    .map-yandex {
         width: 350px;
+        height: 200px;
     }
     .page06-map span {
         font-size: 20px;
@@ -636,11 +643,11 @@ max: 768
         width: 200px;
     }
     #first {
-        height: 3320px;
+        height: 3300px;
         width: 7px;
     }
     #second {
-        height: 3320px;
+        height: 3300px;
         width: 7px;
     }
 }
@@ -919,16 +926,17 @@ max: 576
         width: 100px;
     }
     .page06-map {
-        width: 250px;
+        width: 300px;
     }
-    .page06-map img{
-        width: 250px;
+    .map-yandex {
+        width: 300px;
+        height: 150px;
     }
     .page06-map span {
         font-size: 18px;
     }
     .page06-img {
-        bottom: -30px;
+        bottom: 20px;
     }
     .page06-img img {
         width: 150px;

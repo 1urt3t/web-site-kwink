@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./Css/style.css" />
     <link rel="stylesheet" href="./Css/media.css" />
     <script src="./Js/main.js" defer></script>
+    <script
+      src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>"
+      type="text/javascript"
+    ></script>
   </head>
   <body>
     <div class="header">
@@ -273,7 +277,7 @@
         </div>
         <div class="page06-map">
           <span>Контакты</span>
-          <img src="img/06-page/03-map.png" alt="" />
+          <div class="map-yandex" id="map-yandex"></div>
         </div>
         <div class="page06-img">
           <img src="/img/06-page/05-pa.png" alt="" />

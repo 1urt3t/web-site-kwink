@@ -194,7 +194,7 @@ body {
 .page04 {
     padding-top: 30px;
     position: relative;
-    background-image: url('/img/04-page/01-bacground.png');
+    background-image: url('../img/04-page/01-bacground.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
